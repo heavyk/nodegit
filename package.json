@@ -89,6 +89,7 @@
     "installDebug": "BUILD_DEBUG=true npm install",
     "recompile": "node-gyp configure build",
     "rebuild": "node generate && node-gyp configure build",
+    "install": "node lifecycleScripts/configureLibssh2",
     "recompileDebug": "node-gyp configure --debug build",
     "rebuildDebug": "node generate && node-gyp configure --debug build"
   },
