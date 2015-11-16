@@ -1,0 +1,668 @@
+{
+  "annotated_commit": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/annotated_commit.js"
+  },
+  "attr": {
+    "fields": [],
+    "functions": [
+      "getMany"
+    ]
+  },
+  "undefined": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/undefined.js"
+  },
+  "blame": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/blame.js"
+  },
+  "blame_hunk": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/blame_hunk.js"
+  },
+  "blame_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/blame_options.js"
+  },
+  "blob": {
+    "fields": [],
+    "functions": [
+      "createFromBuffer",
+      "createFromDisk",
+      "createFromWorkdir",
+      "free",
+      "lookupPrefix",
+      "owner"
+    ]
+  },
+  "branch": {
+    "fields": [],
+    "functions": [
+      "createFromAnnotated",
+      "iteratorNew",
+      "lookup",
+      "move",
+      "setUpstream",
+      "upstream"
+    ]
+  },
+  "branch_iterator": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/branch_iterator.js"
+  },
+  "buf": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/buf.js"
+  },
+  "cert": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cert.js"
+  },
+  "cert_hostkey": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cert_hostkey.js"
+  },
+  "cert_x509": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cert_x509.js"
+  },
+  "checkout": {
+    "fields": [],
+    "functions": [
+      "initOptions"
+    ]
+  },
+  "checkout_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/checkout_options.js"
+  },
+  "cherrypick": {
+    "fields": [],
+    "functions": [
+      "initOptions"
+    ]
+  },
+  "cherrypick_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cherrypick_options.js"
+  },
+  "clone": {
+    "fields": [],
+    "functions": []
+  },
+  "clone_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/clone_options.js"
+  },
+  "commit": {
+    "fields": [],
+    "functions": [
+      "createV",
+      "free",
+      "headerField",
+      "lookup",
+      "lookupPrefix",
+      "nthGenAncestor",
+      "rawHeader"
+    ]
+  },
+  "config": {
+    "fields": [],
+    "functions": [
+      "getStringBuf",
+      "setInt64",
+      "setMultivar",
+      "setString",
+      "snapshot"
+    ]
+  },
+  "config_entry": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/config_entry.js"
+  },
+  "cred": {
+    "fields": [],
+    "functions": [
+      "hasUsername",
+      "sshKeyFromAgent",
+      "sshKeyMemoryNew",
+      "usernameNew"
+    ]
+  },
+  "cred_default": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cred_default.js"
+  },
+  "cred_username": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cred_username.js"
+  },
+  "cred_userpass_payload": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cred_userpass_payload.js"
+  },
+  "cvar_map": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/cvar_map.js"
+  },
+  "describe_format_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/describe_format_options.js"
+  },
+  "describe_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/describe_options.js"
+  },
+  "diff": {
+    "fields": [],
+    "functions": [
+      "getPerfdata"
+    ]
+  },
+  "diff_binary": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_binary.js"
+  },
+  "diff_binary_file": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_binary_file.js"
+  },
+  "diff_delta": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_delta.js"
+  },
+  "diff_file": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_file.js"
+  },
+  "diff_find_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_find_options.js"
+  },
+  "diff_hunk": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_hunk.js"
+  },
+  "diff_line": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_line.js"
+  },
+  "diff_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_options.js"
+  },
+  "diff_perfdata": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_perfdata.js"
+  },
+  "diff_stats": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/diff_stats.js"
+  },
+  "error": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/error.js"
+  },
+  "fetch": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/fetch.js"
+  },
+  "fetch_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/fetch_options.js"
+  },
+  "filter": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/filter.js"
+  },
+  "filter_list": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/filter_list.js"
+  },
+  "giterr": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/giterr.js"
+  },
+  "graph": {
+    "fields": [],
+    "functions": [
+      "descendantOf"
+    ]
+  },
+  "hashsig": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/hashsig.js"
+  },
+  "ignore": {
+    "fields": [],
+    "functions": [
+      "addRule",
+      "clearInternalRules"
+    ]
+  },
+  "index": {
+    "fields": [],
+    "functions": [
+      "addByPath",
+      "caps",
+      "checksum",
+      "conflictAdd",
+      "conflictCleanup",
+      "conflictRemove",
+      "entryIsConflict",
+      "entryStage",
+      "entryCount",
+      "getByIndex",
+      "getByPath",
+      "owner",
+      "read",
+      "readTree",
+      "removeByPath",
+      "removeDirectory",
+      "setCaps",
+      "writeTree",
+      "writeTreeTo"
+    ]
+  },
+  "index_conflict_iterator": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/index_conflict_iterator.js"
+  },
+  "index_entry": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/index_entry.js"
+  },
+  "index_time": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/index_time.js"
+  },
+  "indexer": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/indexer.js"
+  },
+  "libgit2": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/libgit2.js"
+  },
+  "mempack": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/mempack.js"
+  },
+  "merge": {
+    "fields": [],
+    "functions": [
+      "bases",
+      "fileInitInput",
+      "initOptions",
+      "trees"
+    ]
+  },
+  "merge_file_input": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/merge_file_input.js"
+  },
+  "merge_file_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/merge_file_options.js"
+  },
+  "merge_file_result": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/merge_file_result.js"
+  },
+  "merge_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/merge_options.js"
+  },
+  "merge_result": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/merge_result.js"
+  },
+  "message": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/message.js"
+  },
+  "note": {
+    "fields": [],
+    "functions": [
+      "author",
+      "committer",
+      "free",
+      "iteratorNew",
+      "next"
+    ]
+  },
+  "note_iterator": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/note_iterator.js"
+  },
+  "object": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/object.js"
+  },
+  "odb": {
+    "fields": [],
+    "functions": [
+      "addDiskAlternate",
+      "free"
+    ]
+  },
+  "odb_object": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/odb_object.js"
+  },
+  "oid": {
+    "fields": [],
+    "functions": [
+      "cmp",
+      "cpy",
+      "iszero",
+      "ncmp",
+      "strcmp",
+      "streq",
+      "tostrS"
+    ]
+  },
+  "oid_shorten": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/oid_shorten.js"
+  },
+  "oidarray": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/oidarray.js"
+  },
+  "openssl": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/openssl.js"
+  },
+  "packbuilder": {
+    "fields": [],
+    "functions": [
+      "free",
+      "hash",
+      "insert",
+      "insertCommit",
+      "insertRecur",
+      "insertTree",
+      "insertWalk",
+      "objectCount",
+      "setThreads",
+      "written"
+    ]
+  },
+  "patch": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/patch.js"
+  },
+  "pathspec": {
+    "fields": [],
+    "functions": [
+      "free",
+      "matchDiff",
+      "matchIndex",
+      "matchListDiffEntry",
+      "matchListEntry",
+      "matchListEntrycount",
+      "matchListFailedEntry",
+      "matchListFailedEntrycount",
+      "matchTree",
+      "matchWorkdir"
+    ]
+  },
+  "pathspec_match_list": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/pathspec_match_list.js"
+  },
+  "push": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/push.js"
+  },
+  "push_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/push_options.js"
+  },
+  "push_update": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/push_update.js"
+  },
+  "rebase": {
+    "fields": [],
+    "functions": [
+      "initOptions",
+      "operationByIndex"
+    ]
+  },
+  "rebase_operation": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/rebase_operation.js"
+  },
+  "rebase_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/rebase_options.js"
+  },
+  "refdb": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/refdb.js"
+  },
+  "reference": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/reference.js"
+  },
+  "reflog": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/reflog.js"
+  },
+  "reflog_entry": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/reflog_entry.js"
+  },
+  "refspec": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/refspec.js"
+  },
+  "remote": {
+    "fields": [],
+    "functions": [
+      "addFetch",
+      "addPush",
+      "autotag",
+      "connected",
+      "createAnonymous",
+      "createWithFetchspec",
+      "dup",
+      "free",
+      "getFetchRefspecs",
+      "getPushRefspecs",
+      "getRefspec",
+      "initCallbacks",
+      "isValidName",
+      "list",
+      "owner",
+      "prune",
+      "pruneRefs",
+      "refspecCount",
+      "setAutotag",
+      "setUrl",
+      "stats",
+      "updateTips",
+      "upload"
+    ]
+  },
+  "remote_callbacks": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/remote_callbacks.js"
+  },
+  "repository": {
+    "fields": [],
+    "functions": [
+      "config",
+      "configSnapshot",
+      "detachHead",
+      "free",
+      "getNamespace",
+      "headDetached",
+      "headUnborn",
+      "isEmpty",
+      "isShallow",
+      "messageRemove",
+      "odb",
+      "openBare",
+      "openExt",
+      "refdb",
+      "setHead",
+      "setHeadDetached",
+      "setHeadDetachedFromAnnotated",
+      "setIdent",
+      "setNamespace",
+      "setWorkdir",
+      "state",
+      "stateCleanup",
+      "wrapOdb"
+    ]
+  },
+  "repository_init_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/repository_init_options.js"
+  },
+  "reset": {
+    "fields": [],
+    "functions": [
+      "fromAnnotated"
+    ]
+  },
+  "revert": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/revert.js"
+  },
+  "revert_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/revert_options.js"
+  },
+  "revparse": {
+    "fields": [],
+    "functions": [
+      "ext"
+    ]
+  },
+  "revwalk": {
+    "fields": [],
+    "functions": [
+      "hideGlob",
+      "hideHead",
+      "hideRef",
+      "pushGlob",
+      "pushHead",
+      "pushRange",
+      "pushRef",
+      "reset",
+      "sorting"
+    ]
+  },
+  "signature": {
+    "fields": [],
+    "functions": [
+      "dup",
+      "free"
+    ]
+  },
+  "smart": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/smart.js"
+  },
+  "stash": {
+    "fields": [],
+    "functions": [
+      "applyInitOptions"
+    ]
+  },
+  "stash_apply_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/stash_apply_options.js"
+  },
+  "status": {
+    "fields": [],
+    "functions": [
+      "byIndex",
+      "shouldIgnore"
+    ]
+  },
+  "status_entry": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/status_entry.js"
+  },
+  "status_list": {
+    "fields": [],
+    "functions": [
+      "free",
+      "getPerfdata"
+    ]
+  },
+  "status_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/status_options.js"
+  },
+  "strarray": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/strarray.js"
+  },
+  "submodule": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/submodule.js"
+  },
+  "submodule_update_options": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/submodule_update_options.js"
+  },
+  "tag": {
+    "fields": [],
+    "functions": [
+      "annotationCreate",
+      "free",
+      "listMatch",
+      "lookupPrefix",
+      "owner",
+      "peel",
+      "tagger",
+      "targetId"
+    ]
+  },
+  "time": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/time.js"
+  },
+  "trace": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/trace.js"
+  },
+  "transaction": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/transaction.js"
+  },
+  "transfer_progress": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/transfer_progress.js"
+  },
+  "transport": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/transport.js"
+  },
+  "tree": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/tree.js"
+  },
+  "tree_entry": {
+    "fields": [
+      "attr",
+      "filenameLen"
+    ],
+    "functions": []
+  },
+  "treebuilder": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/treebuilder.js"
+  },
+  "writestream": {
+    "testFileMissing": false,
+    "testFilePath": "../test/tests/writestream.js"
+  }
+}
